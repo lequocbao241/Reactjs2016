@@ -17,5 +17,8 @@ Trong khi học và sau khi học xong em muốn:
 3. Góp ý cho giảng viên.
  - Đến phần học JavaScript thì anh đi chậm lại xíu để em nắm rõ và hiểu hơn.
  - Trong khi học thì anh cũng chỉ cho em và mọi người cách tư duy để làm bài một cách trơn tru hơn.
+ - Về riêng em thì em mong Thầy sẽ cho em nhiều bài tập để em thực hành rèn giũa về kĩ năng tư duy lập trình, khả năng code cũng như bổ sung thêm kiến thức cho bản thân.
+ 
+
 
 	
