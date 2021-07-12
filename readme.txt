@@ -1,3 +1,3 @@
-1. Còn yếu HTML CSS
-2. Sau khóa học mong muốn được đi làm
-3. Hỗ trợ bọn em trong suốt quá trình học 
+1. nêu ra điểm mạnh và điểm yếu của bản thân
+2. nêu ra kế hoạch phát triển bản thân, hoặc mong muốn đạt được điều gì từ khóa học
+3. góp ý cho giảng viên
