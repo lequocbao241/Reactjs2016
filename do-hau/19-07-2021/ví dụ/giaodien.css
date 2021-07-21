@@ -1,0 +1,13 @@
+
+.custom-border-pink {
+    border: 1px solid pink;
+}
+.item-tag {
+    width: 100px ;
+    height: 100px;
+    
+}
+.item-menu {
+    width: 300px;
+    height: auto;
+}
