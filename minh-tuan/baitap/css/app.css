@@ -8,6 +8,9 @@ body {
   font-size: 1.6rem;
   line-height: 1;
 }
+.checkbox {
+  display: none;
+}
 h2 {
   font-size: 2.5rem;
   font-weight: bold;
@@ -43,6 +46,9 @@ h2 {
 /* HEADER */
 .header {
   width: 100%;
+}
+.toggle-icon {
+  display: none;
 }
 .nav {
   background-color: var(--primary-color);
@@ -194,7 +200,7 @@ h2 {
   border: 1px solid #ccc;
 }
 .card-image {
-  display: inline-block;
+  display: block;
   height: 175px;
   margin-bottom: 10px;
 }
@@ -403,14 +409,8 @@ h2 {
   .nav-link + .nav-link {
     margin-left: 20px;
   }
-  .toggle-icon {
-    display: none;
-  }
-  .nav .container {
-    flex-direction: row-reverse;
-  }
 }
-@media screen and (max-width: 570px){
+@media screen and (max-width: 767px){
   html {
     font-size: 50.5%;
   }
@@ -447,13 +447,10 @@ h2 {
   .news {
     --column: 1;
   }
-  .nav .container {
-    flex-direction: row-reverse;
-  }
   .toggle-icon {
+    display: block;
     color: #999;
     font-size: 2rem;
-    order: 1;
   }
   .nav-search {
     color: black;
@@ -462,8 +459,6 @@ h2 {
   .nav-brand {
     color: var(--primary-color);
     font-size: 2.8rem;
-    flex: 1;
-    text-align: center;
   }
   .nav {
     background-color: #fff;
@@ -485,7 +480,7 @@ h2 {
   .nav-link {
     padding: 10px;
   }
-  .toggle-icon:focus + .nav-list .nav-menu {
+  .checkbox:checked ~ .nav-list .nav-menu {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
