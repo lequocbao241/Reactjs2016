@@ -334,10 +334,10 @@ footer .latest-footer h5{
         display: block;
         position: absolute;
         top: 12px;
-        right: 40%;
+        right: 30%;
     }
     .menu .logo-mobile strong{
-        font-size: 25px;
+        font-size: 20px;
         font-family: inherit;
         color: blue;
     }
